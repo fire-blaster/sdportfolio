@@ -97,3 +97,32 @@ a:hover {
     font-size: 14px;
     margin-bottom: 5px;
 }
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .project {
+        max-height: none;
+        padding: 10px;
+    }
+
+    .project h2 {
+        font-size: 18px;
+    }
+
+    .project p {
+        font-size: 14px;
+    }
+}
